@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.buttom-box {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  margin: 50%;
+  margin: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container {
+  background-color: hsl(185, 75%, 39%);
+  height: 1000px;
+}
+
+.bg-img {
+  text-align: center;
+  transform: scale(1.15);
+  position: relative;
+  top: 100px;
+}
+
+.bg-svg {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.txt-nb {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold 400;
+}
+
+.city-p {
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: 85px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+}
+
+span {
+  font-size: 26px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+}
+
+.fan-count {
+  font-size: 15px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold 700;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 160px;
+}
+
+hr {
+  position: relative;
+  top: 150px;
+  opacity: 0.2;
+}
+
+.pf-img {
+  position: relative;
+  left: 900px;
+  top: 50px;
+  transform: scale(1.2);
+  border-radius: 100%;
+}
+
+.all {
+  position: relative;
+  top: 140px;
+}
+
+.t-bg {
+  position: absolute;
+  top: -500px;
+  left: 0;
+}
+
+.b-bg {
+  position: absolute;
+  buttom: -500px;
+  right: 0;
+}
